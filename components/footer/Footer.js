@@ -23,11 +23,12 @@ const Footer = (props) => {
                                 
                                 <div className="social-icons">
                                     <ul>
-                                        <li><Link to="/"><i className="ti-facebook"></i></Link></li>
-                                        <li><Link to="/"><i className="ti-twitter-alt"></i></Link></li>
-                                        <li><Link to="/"><i className="ti-linkedin"></i></Link></li>
+                                        {/* <li><Link to="/"><i className="ti-facebook"></i></Link></li> */}
+                                        <li><a target="_blank" href="https://twitter.com/thldesignz"><i className="ti-twitter-alt"></i></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com/thldesignz/"><i className="ti-instagram"></i></a></li> 
+                                        {/* <li><Link to="/"><i className="ti-linkedin"></i></Link></li>
                                         <li><Link to="/"><i className="ti-pinterest"></i></Link></li>
-                                        <li><Link to="/"><i className="ti-vimeo-alt"></i></Link></li>
+                                        <li><Link to="/"><i className="ti-vimeo-alt"></i></Link></li> */}
                                     </ul>
                                 </div>
                             </div>
