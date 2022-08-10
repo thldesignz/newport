@@ -15,6 +15,16 @@ import ServiceSection from '../components/ServiceSection/ServiceSection';
 import Testimonial from '../components/Testimonial/Testimonial';
 
 export default function Home() {
+  React.useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MS13S8H0FC');
+
+    gtag();
+})
+
   return (
     <div id='scrool'>
       <CommonHead/>
