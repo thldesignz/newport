@@ -52,9 +52,9 @@ const Header = (props) => {
                             <div className="col-lg-2 col-md-2 col-2">
                                 <div className="header-right">
                                     <div className="header-btn">
-                                        <a onClick={ClickHandler} className="theme-btn" download="Bruce Slaughter Resume" href=""
+                                        <a onClick={ClickHandler} className="theme-btn" download="" href=""
                                             title="ImageName">
-                                            <img className="hide-img" alt="ImageName" src="images/cv.jpg" />
+                                            <img className="hide-img" alt="ImageName" src="" />
                                             Resume
                                         </a>
                                     </div>
