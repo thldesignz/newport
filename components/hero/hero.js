@@ -19,7 +19,7 @@ const Hero = () => {
                                         <h5>Web Developer</h5>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-text">
-                                        <p>I'm a HTML Email Developer / Front-End Developer based in Ohio.  I have a passion for creating and love to bring people's vision to life. I love all elements of Design and development. In my free time I like to draw illustrations when I'm not coding.</p>
+                                        <p>I'm a Web Developer based in Ohio.  I have a passion for creating and love to bring people's vision to life. I love all elements of Design and development. In my free time I like to draw illustrations when I'm not coding.</p>
                                     </div>
                                     <div className="clearfix"></div>
                                     <div className="slide-btn"><Link className="theme-btn" to="contact" spy={true} smooth={true}  duration={500}>Hire Me</Link></div>
